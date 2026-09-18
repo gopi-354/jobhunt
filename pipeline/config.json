@@ -1,0 +1,41 @@
+{
+  "keep_days": 45,
+  "max_llm_scores_per_run": 80,
+  "llm_model": "google/gemini-3.7-flash",
+
+  "title_require": ["data", "machine learning", "ml ", "ml/", " ai", "ai ", "intelligence", "nlp", "llm", "deep learning",
+                    "analyst", "analytics", "research", "scientist", "generative", "computer vision", "genai", "mlops"],
+  "title_exclude": ["senior", "sr.", "sr ", "staff", "principal", "lead", "manager", "director", "head of", "vp ", "vice president",
+                    "architect", "10+", "8+", "7+", "6+", "5+", "4+", " iii", " iv", "consultant", "sales", "marketing", "recruiter",
+                    "account executive", "professor", "faculty", "phd"],
+  "india_markers": ["bengaluru", "bangalore", "india", "hyderabad", "chennai", "pune", "mumbai", "gurgaon", "gurugram", "noida",
+                    "delhi", "kolkata", "remote"],
+  "bangalore_markers": ["bengaluru", "bangalore"],
+
+  "linkedin_searches": [
+    {"keywords": "data scientist", "location": "Bengaluru, Karnataka, India", "experience": "1,2"},
+    {"keywords": "machine learning engineer", "location": "Bengaluru, Karnataka, India", "experience": "1,2"},
+    {"keywords": "AI engineer", "location": "Bengaluru, Karnataka, India", "experience": "1,2"},
+    {"keywords": "data analyst", "location": "Bengaluru, Karnataka, India", "experience": "1,2"},
+    {"keywords": "data science intern", "location": "India", "experience": "1"},
+    {"keywords": "machine learning intern", "location": "India", "experience": "1"},
+    {"keywords": "generative AI", "location": "Bengaluru, Karnataka, India", "experience": "1,2"}
+  ],
+
+  "internshala": {
+    "internships": ["data-science", "machine-learning", "artificial-intelligence-ai", "deep-learning",
+                    "natural-language-processing-nlp", "data-analytics"],
+    "jobs": ["data-science", "machine-learning", "data-analyst", "artificial-intelligence-ai"],
+    "cities": ["bangalore", ""]
+  },
+
+  "jsearch_queries": ["data scientist fresher Bengaluru", "machine learning engineer entry level Bengaluru",
+                      "AI engineer fresher India", "data science intern India"],
+
+  "ats": {
+    "greenhouse": ["coinbase", "twilio", "stripe", "airbnb", "sigmoid", "glance", "hackerrank", "druva", "zenoti", "inmobi",
+                   "rubrik", "turing", "netskope", "observeai", "groww", "slice", "newton"],
+    "lever": ["paytm", "meesho", "hevodata", "mindtickle", "zeta", "fi", "cred", "porter"],
+    "ashby": ["sarvam", "confluent", "atlan", "leap", "navi"]
+  }
+}

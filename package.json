@@ -1,0 +1,9 @@
+{
+  "name": "jobhunt",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/logic.test.js",
+    "serve": "python -m http.server 8080 --directory docs"
+  }
+}
