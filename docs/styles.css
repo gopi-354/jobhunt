@@ -60,7 +60,14 @@ main { padding: 16px 0; }
 .actions { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 10px; }
 .ai-out { white-space: pre-wrap; background: var(--bg); border-radius: 8px; padding: 10px 12px; margin-top: 10px; font-size: 14px; }
 .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
-@media (max-width: 720px) { .grid { grid-template-columns: 1fr; } header .meta { display: none; } }
+.grid > *, .kv > *, .row > * { min-width: 0; }
+input, select, textarea { min-width: 0; max-width: 100%; }
+body { overflow-x: hidden; }
+@media (max-width: 720px) {
+  .grid { grid-template-columns: 1fr; } header .meta { display: none; }
+  .row { grid-template-columns: 1fr; } .row .ctl { justify-content: flex-start; }
+  .fit { min-width: 40px; }
+}
 .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin-bottom: 14px; }
 .stat { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 10px 12px; }
 .stat b { display: block; font-size: 22px; }
