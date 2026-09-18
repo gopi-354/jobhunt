@@ -279,6 +279,7 @@ function viewSettings() {
       </div>
       <div class="card">
         <b>How this works</b>
+        <p class="note"><a href="https://github.com/gopi-354/jobhunt/blob/main/HOW_TO_USE.md" target="_blank" rel="noopener">Read the full guide ↗</a> — first-time setup, the 10-minute morning routine, and the outreach playbook.</p>
         <p class="note">Every day at 7:00 IST a script fetches entry-level data / ML / AI roles and internships in India from Internshala, LinkedIn public search, JSearch and ${Object.keys(DATA.by_source || {}).length || "several"} company career boards, filters out senior roles, and publishes them here. Jobs stay for 45 days. Last refresh: ${DATA.updated_at ? esc(DATA.updated_at.slice(0, 16).replace("T", " ")) + " UTC" : "unknown"}.</p>
         <p class="note">Sources today: ${esc(Object.entries(DATA.by_source || {}).map(([k, v]) => `${k} ${v}`).join(", ") || "—")}.</p>
       </div>

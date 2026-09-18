@@ -6,6 +6,8 @@ Entry-level data science / ML / AI jobs and internships in India, refreshed ever
 
 ## For the job seeker
 
+Full guide with the daily routine and outreach playbook: **[HOW_TO_USE.md](HOW_TO_USE.md)**. Short version:
+
 1. Open the link. **Settings** → fill in your profile (2 minutes, be specific, include numbers) → paste the OpenRouter key you were given → Save.
 2. **Jobs** tab, every morning after 7:00 IST. "New" shows what arrived since your last visit. Press **AI-score** once to rank them for you; the reason line tells you what to emphasize.
 3. For anything worth it press **Apply ↗**. It opens the posting and moves it to **Tracker** with a follow-up reminder 7 days out. **Not for me** hides it forever. **Save** keeps it for later.
