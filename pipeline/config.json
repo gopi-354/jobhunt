@@ -1,6 +1,6 @@
 {
   "keep_days": 45,
-  "max_llm_scores_per_run": 80,
+  "max_llm_scores_per_run": 250,
   "llm_model": "google/gemini-3.7-flash",
 
   "title_require": ["data", "machine learning", "ml ", "ml/", " ai", "ai ", "intelligence", "nlp", "llm", "deep learning",
